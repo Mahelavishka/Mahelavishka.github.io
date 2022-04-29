@@ -9,23 +9,63 @@
             box-sizing: border-box;
         }
 
-        /* Create two equal columns that floats next to each other */
-        .column {
+        .column1 {
             float: left;
-            width: 50%;
-            padding: 10px;
+            width: 25%;
+            padding: 50px;
             height: 300px;
-            /* Should be removed. Only for demonstration */
+
         }
 
-        /* Clear floats after the columns */
-        
+        .column2 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+
+        }
+
+        .column3 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+
+        }
+
+        .column4 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+
+        }
 
         .row:after {
 
             content: "";
             display: table;
             clear: both;
+        }
+
+        ul.a {
+            list-style-position: outside;
+        }
+
+        .container {
+            position: relative;
+            max-width: 10000px;
+            max-height: 50px;
+            text-align: center;
+        }
+
+        .text-block {
+            position: relative;
+            bottom: 20px;
+            right: 20px;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     </style>
 
@@ -40,48 +80,85 @@
 
 <body>
 
-    <div class="row">
-        <div class="column">
-            <h1><u>Mahel</u> Avishka</h1>
+    <div class="container">
+        <img src="https://wallpaper.dog/large/20513781.jpg" alt="Nature" style="width:100%;">
+    </div>
 
-            <h2>Charted Architect</h2>
+    <div class="text-block">
+        <div class="row">
+            <div class="column1">
+                <h1 style="text-align:center "><u>Mahel</u> Avishka</h1>
 
-            <p style="width: 100%; text-align:justify">Skilled Architect in both residential new construction and
-                remodeling projects. Designing experience with high-profile clients of multi-million-dollar properties,
-                involving challenging site placements. Dedicated Architectural professional with history of meeting
-                company goals and utilizing consistent and organized practices. Capable of working under pressure and
-                adapting to new situations/challenges to best enhance the organizational brand while seeking for a
-                healthy working environment. Enriched over 02 years of experience in Architecture with excellent
-                reputation for resolving problems and improving customer satisfaction, I am an organized and dependable
-                candidate successful at managing multiple priorities with a positive attitude.</p>
-        </div>
+                <h2 style="text-align:center ">Charted Architect</h2>
+
+                <p style="text-align:justify">Skilled Architect in both residential new construction and
+                    remodeling projects. Designing experience with high-profile clients of multi-million-dollar
+                    properties,
+                    involving challenging site placements. Dedicated Architectural professional with history of meeting
+                    company goals and utilizing consistent and organized practices. Capable of working under pressure
+                    and
+                    adapting to new situations/challenges to best enhance the organizational brand while seeking for a
+                    healthy working environment. Enriched over 02 years of experience in Architecture with excellent
+                    reputation for resolving problems and improving customer satisfaction, I am an organized and
+                    dependable
+                    candidate successful at managing multiple priorities with a positive attitude.</p>
+            </div>
 
 
+            <div class="column2" style="text-align:justify">
+                <h1 style="text-align:center ">Experience</h1>
 
-        <div class="column">
-            <h1>Experience</h1>
+                <h3 style="text-align:center ">Architect (11/2019 – Present):</h3>
 
-            <h3>Architect</h3>
-            <li>Consulted the client to determine functional and spatial requirement of new
-                structure.</li>
-            <li>Reviewed contarctor proposals and sets of drawings prepared by firms to identify
-                missing information, generate questions and align budgets.</li>
-            <li>Reviewed and checked technical drawings by architectural technicians, CAD
-                technicians and draughtmans.</li>
-            <li>Created innovative approaches for problems and discussed strategies with
-                project managers of projects.</li>
-            <li>Designed apartment floors, service areas, landscapes, parkings, interior designs
-                of apartment floors including other services, recreational areas, detailing of the
-                building elements and lighting layout arrangements.</li>
-            <li>Consulted the municipal building department and other governing agency
-                officials to coordinate approvals.</li>
+                <ul class="a">
+                    <li>Consulted the client to determine functional and spatial requirement of new structure.</li>
+                    <li>Reviewed contarctor proposals and sets of drawings prepared by firms to identify missing
+                        information, generate questions and align budgets.</li>
+                    <li>Reviewed and checked technical drawings by architectural technicians, CAD technicians and
+                        draughtmans.</li>
+                    <li>Created innovative approaches for problems and discussed strategies with project managers of
+                        projects.</li>
+                    <li>Created, printed and modified drawings in AutoCAD.</li>
+                    <li>Designed custom furniture adapted to floor plans, working closely with multiple furniture
+                        vendors.
+                    </li>
+                    <li>Communicated with material suppliers and contarctors to incorporate input in apartment,
+                        commercial
+                        and Leisure designs.</li>
+                    <li>Coordinated clients, consultants and contractors during construction bidding.</li>
+                    <li>Consulted the municipal building department and other governing agency officials to coordinate
+                        approvals.</li>
+                    <li>Recommended minor adaptions and modifications to complete working drawing sets.</li>
+                    <li>Designed apartment floors, service areas, landscapes, parkings, interior designs of apartment
+                        floors
+                        including other services, recreational areas, detailing of the building elements and lighting
+                        layout
+                        arrangements.</li>
+                </ul>
+            </div>
+
+            <div class="column2" style="text-align:justify">
+
+                <h1 style="text-align:center ">Key Projects Involved</h1>
+
+                <h3 style="text-align:center ">Architect (11/2019 – Present):</h3>
+
+                <ul class="a">
+                    <li>Eliot Place: Borella, Sri lanka (30 storey appartment building catered for middle category,
+                        additionally supported by commercial facilities)</li>
+                    <li>Bird Park project: Colombo, Sri Lanka (13760 m2 , recreational activity development project near
+                        by urban city of Colombo – Top of a marshy land)</li>
+                    <li>Affordable housing: Orugodawatte, Sri Lanka (20 storey appartment building catered for
+                        affordable lower middle category)</li>
+                    <li>Low Income Housing: Stadiumgama, Sri Lanka (1000 housing complex project)</li>
+                    <li>Warehouse project: Dandugama, Sri Lanka (145,000 m2 ware house for mega container exports and
+                        imports organisation)</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <h6>Heading 6</h6>
 
-    <p style="display: inline;">Lorem ipsum dolor sit amet onsulted the municipal building department onsulted the municipal building department onsulted the municipal building department onsulted the municipal building department onsulted the municipal building department .</p>
-    <p style="display: inline;">Lorem ipsum dolor sit amet onsulted the municipal building department onsulted the municipal building department onsulted the municipal building department onsulted the municipal building department onsulted the municipal building department .</p>
 
 </body>
 
